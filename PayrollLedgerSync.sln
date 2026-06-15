@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollLedgerSync.Api", "PayrollLedgerSync.Api\PayrollLedgerSync.Api.csproj", "{A6772517-C2AA-48B4-AB96-6CDDEA6AE3FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollLedgerSync.Application", "PayrollLedgerSync.Application\PayrollLedgerSync.Application.csproj", "{3E2E24BB-FB65-4928-A824-C2F15A44ED3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollLedgerSync.Domain", "PayrollLedgerSync.Domain\PayrollLedgerSync.Domain.csproj", "{B66D44FC-166E-40DD-BDE6-012BDD141E23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollLedgerSync.Infrastructure", "PayrollLedgerSync.Infrastructure\PayrollLedgerSync.Infrastructure.csproj", "{6F3EB5D5-8251-4222-B1E1-98BEC2BE73DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollLedgerSync.Worker", "PayrollLedgerSync.Worker\PayrollLedgerSync.Worker.csproj", "{E0712992-151A-4971-9DD8-976DE23C85F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollLedgerSync.LedgerConsumer", "PayrollLedgerSync.LedgerConsumer\PayrollLedgerSync.LedgerConsumer.csproj", "{C14AC83E-5D83-42F5-B67F-14F05877033D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollLedgerSync.Tests", "PayrollLedgerSync.Tests\PayrollLedgerSync.Tests.csproj", "{210750F5-94DF-437D-BE68-49A14F08139F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6772517-C2AA-48B4-AB96-6CDDEA6AE3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6772517-C2AA-48B4-AB96-6CDDEA6AE3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6772517-C2AA-48B4-AB96-6CDDEA6AE3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6772517-C2AA-48B4-AB96-6CDDEA6AE3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2E24BB-FB65-4928-A824-C2F15A44ED3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2E24BB-FB65-4928-A824-C2F15A44ED3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2E24BB-FB65-4928-A824-C2F15A44ED3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2E24BB-FB65-4928-A824-C2F15A44ED3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66D44FC-166E-40DD-BDE6-012BDD141E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66D44FC-166E-40DD-BDE6-012BDD141E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66D44FC-166E-40DD-BDE6-012BDD141E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66D44FC-166E-40DD-BDE6-012BDD141E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3EB5D5-8251-4222-B1E1-98BEC2BE73DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3EB5D5-8251-4222-B1E1-98BEC2BE73DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3EB5D5-8251-4222-B1E1-98BEC2BE73DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3EB5D5-8251-4222-B1E1-98BEC2BE73DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0712992-151A-4971-9DD8-976DE23C85F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0712992-151A-4971-9DD8-976DE23C85F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0712992-151A-4971-9DD8-976DE23C85F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0712992-151A-4971-9DD8-976DE23C85F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14AC83E-5D83-42F5-B67F-14F05877033D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14AC83E-5D83-42F5-B67F-14F05877033D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14AC83E-5D83-42F5-B67F-14F05877033D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14AC83E-5D83-42F5-B67F-14F05877033D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210750F5-94DF-437D-BE68-49A14F08139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210750F5-94DF-437D-BE68-49A14F08139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210750F5-94DF-437D-BE68-49A14F08139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210750F5-94DF-437D-BE68-49A14F08139F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5qyhpwPBh3D9NJOxn/NTAxeb9dsFcpUmvgjMHsljg5Y=",
+  "Source": "PayrollLedgerSync.Api",
+  "BasePath": "_content/PayrollLedgerSync.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
