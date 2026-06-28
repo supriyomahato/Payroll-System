@@ -1,3 +1,116 @@
-/generateArchitecturePdf.js
-/node_modules
-/PayrollLedgerSync-architecture.pdf
+# .NET / C# Artifacts
+bin/
+obj/
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pidb
+*.VC.db
+*.VC.VC.opendb
+.vscode/
+
+# Build and generated files
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# Node.js / npm (for UI projects)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.parcel-cache
+.next
+out/
+.cache
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# Testing
+.coverage
+coverage/
+.nyc_output/
+
+# OS-specific
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+
+# Rider
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+riderModule.iml
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# API Documentation
+swagger-ui/
+openapi/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+*.bak
