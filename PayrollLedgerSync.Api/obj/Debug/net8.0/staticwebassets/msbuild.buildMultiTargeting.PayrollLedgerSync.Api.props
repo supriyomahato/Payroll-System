@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\PayrollLedgerSync.Api.props" />
-</Project>
